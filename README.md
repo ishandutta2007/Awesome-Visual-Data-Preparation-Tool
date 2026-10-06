@@ -52,7 +52,7 @@ Below is a comparative breakdown of commercial visual data preparation and cloud
 
 ## 🔓 Open-Source GitHub Projects
 
-Visual data preparation, data orchestration, and data quality frameworks backed by open-source communities. Sorted by **GitHub Stars_Count (descending)**.
+Visual data preparation, data orchestration, and data quality frameworks backed by open-source communities. Sorted by **GitHub_Stars_Count (descending)**.
 
 1. **[Apache Airflow](https://github.com/apache/airflow)** [<img src="https://img.shields.io/github/stars/apache/airflow?style=social&color=white" alt="Stars_Count"/>](https://github.com/apache/airflow/stargazers)  
    🌾 **Programmatic & Visual Workflow Orchestration**: Enterprise standard for defining, scheduling, and monitoring complex data transformation pipelines via DAGs.
@@ -104,7 +104,7 @@ Contributions are welcome! Please follow these simple guidelines:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/Update entries** in `README.md` keeping descriptions factual and neutral.
-3. 🏷️ **Specify** pricing, free tier limits, and GitHub Stars_Badges where relevant.
+3. 🏷️ **Specify** pricing, free tier limits, and GitHub_Stars_Badges where relevant.
 4. 📬 **Open a Pull Request** with a concise summary of changes.
 
 ---
