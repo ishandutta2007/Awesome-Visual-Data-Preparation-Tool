@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -28,11 +28,11 @@
   </defs>
 
   <style>
-    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 46px; fill: #ffffff; }
-    .subtitle { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
-    .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 44px; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
 
-    /* Keyframe Animations for Dynamic Background Elements */
+    /* CSS Keyframe Animations */
     @keyframes floatParticle {
       0%, 100% { transform: translateY(0px) scale(1); opacity: 0.4; }
       50% { transform: translateY(-20px) scale(1.15); opacity: 0.8; }
@@ -67,7 +67,7 @@
     <path class="flow-line" d="M -50 250 Q 400 60 800 280 T 1250 100" fill="none" stroke="#818cf8" stroke-width="2"/>
   </g>
 
-  <!-- Decorative Animated Flow Pipeline Nodes (Kept low opacity / background) -->
+  <!-- Decorative Animated Flow Pipeline Nodes -->
   <g opacity="0.25">
     <circle class="particle" cx="220" cy="260" r="6" fill="#38bdf8"/>
     <circle class="particle-delayed" cx="940" cy="90" r="8" fill="#c084fc"/>
@@ -81,36 +81,36 @@
   <!-- Top Accent Bar -->
   <rect x="60" y="40" width="1080" height="5" rx="2" fill="url(#accentGrad)"/>
 
-  <!-- FOREGROUND TEXT & HEADINGS (Guaranteed Clear & Visible) -->
+  <!-- FOREGROUND TEXT & HEADINGS -->
   <g transform="translate(100, 0)">
     <!-- Header Pill / Tag -->
     <g transform="translate(0, 75)">
-      <rect width="240" height="32" rx="16" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-      <text x="12" y="21" class="badge-text" fill="#38bdf8">⚡ DATA PREPARATION TOOLKIT</text>
+      <rect width="250" height="32" rx="16" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="14" y="21" class="badge-text" fill="#38bdf8">DATA PREPARATION TOOLKIT</text>
     </g>
 
     <!-- Main Title -->
     <text x="0" y="160" class="title">Awesome Visual Data Preparation</text>
 
     <!-- Subtitle -->
-    <text x="0" y="200" class="subtitle">A Curated Ecosystem of No-Code Data Wrangling, Visual ETL & Self-Hosted Pipelines</text>
+    <text x="0" y="200" class="subtitle">A Curated Ecosystem of No-Code Data Wrangling, Visual ETL &amp; Self-Hosted Pipelines</text>
 
     <!-- Pill Badges at Bottom -->
     <g transform="translate(0, 240)">
       <!-- Pill 1 -->
       <g transform="translate(0, 0)">
-        <rect width="170" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
-        <text x="14" y="21" class="badge-text">📊 10+ Enterprise SaaS</text>
+        <rect width="180" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+        <text x="14" y="21" class="badge-text">10+ Enterprise SaaS</text>
       </g>
       <!-- Pill 2 -->
-      <g transform="translate(185, 0)">
-        <rect width="185" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
-        <text x="14" y="21" class="badge-text">🔓 15+ Open-Source Engines</text>
+      <g transform="translate(195, 0)">
+        <rect width="195" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+        <text x="14" y="21" class="badge-text">15+ Open-Source Engines</text>
       </g>
       <!-- Pill 3 -->
-      <g transform="translate(385, 0)">
+      <g transform="translate(405, 0)">
         <rect width="180" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
-        <text x="14" y="21" class="badge-text">⭐ Star History Included</text>
+        <text x="14" y="21" class="badge-text">Star History Included</text>
       </g>
     </g>
   </g>
